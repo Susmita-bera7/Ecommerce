@@ -1,0 +1,29 @@
+/* home.css */
+
+/* Ensure the Tab components adjust their sizes on smaller screens */
+.Tab {
+    font-size: 20px;
+    color: inherit;
+    margin-right: 2%;
+    text-decoration: none;
+    padding: 3px 3px;
+  }
+  
+  @media (max-width: 768px) {
+    .Tab {
+      font-size: 16px;
+      margin-right: 1%;
+    }
+  }
+  
+  /* Adjust Typography for mobile screens */
+  .MuiTypography-root {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .MuiTypography-root {
+      font-size: 16px;
+    }
+  }
+  
